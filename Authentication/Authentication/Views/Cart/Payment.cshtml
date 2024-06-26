@@ -1,0 +1,10 @@
+﻿@model Authentication.Helper.Cart
+@using Authentication.Areas.Identity.Data
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<MyUser> SignInManager
+@inject UserManager<MyUser> UserManager
+@{
+    ViewData["Title"] = "Payment";
+    MyUser? user = await UserManager.GetUserAsync(User);
+}
+<h1>Thanks for your oder</h1>
