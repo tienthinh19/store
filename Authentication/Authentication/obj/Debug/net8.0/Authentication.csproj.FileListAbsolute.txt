@@ -866,3 +866,4 @@ E:\thinh\Auth\Authentication\Authentication\obj\Debug\net8.0\refint\Authenticati
 E:\thinh\Auth\Authentication\Authentication\obj\Debug\net8.0\Authentication.pdb
 E:\thinh\Auth\Authentication\Authentication\obj\Debug\net8.0\Authentication.genruntimeconfig.cache
 E:\thinh\Auth\Authentication\Authentication\obj\Debug\net8.0\ref\Authentication.dll
+E:\thinh\Auth\Authentication\Authentication\obj\Debug\net8.0\Authentication.sourcelink.json
