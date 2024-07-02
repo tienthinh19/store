@@ -3,44 +3,16 @@
   "WorkspaceRootPath": "E:\\thinh\\Auth\\Authentication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|e:\\thinh\\auth\\authentication\\authentication\\views\\shared\\simplelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|solutionrelative:authentication\\views\\shared\\simplelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|e:\\thinh\\auth\\authentication\\authentication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|solutionrelative:authentication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|e:\\thinh\\auth\\authentication\\authentication\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|solutionrelative:authentication\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|e:\\thinh\\auth\\authentication\\authentication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|solutionrelative:authentication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|e:\\thinh\\auth\\authentication\\authentication\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|solutionrelative:authentication\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|e:\\thinh\\auth\\authentication\\authentication\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|solutionrelative:authentication\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|e:\\thinh\\auth\\authentication\\authentication\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|solutionrelative:authentication\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|e:\\thinh\\auth\\authentication\\authentication\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|solutionrelative:authentication\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|e:\\thinh\\auth\\authentication\\authentication\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|solutionrelative:authentication\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|e:\\thinh\\auth\\authentication\\authentication\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|solutionrelative:authentication\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|e:\\thinh\\auth\\authentication\\authentication\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|solutionrelative:authentication\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,132 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\thinh\\Auth\\Authentication\\Authentication\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Authentication\\Views\\Home\\Index.cshtml",
               "ToolTip": "E:\\thinh\\Auth\\Authentication\\Authentication\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Authentication\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAwwC4AAAAwAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEMAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-29T08:15:41.446Z",
+              "WhenOpened": "2024-07-02T14:05:31.882Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "site.css",
-              "DocumentMoniker": "E:\\thinh\\Auth\\Authentication\\Authentication\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "Authentication\\wwwroot\\css\\site.css",
-              "ToolTip": "E:\\thinh\\Auth\\Authentication\\Authentication\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "Authentication\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-29T08:10:49.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "E:\\thinh\\Auth\\Authentication\\Authentication\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Authentication\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "E:\\thinh\\Auth\\Authentication\\Authentication\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "Authentication\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AQIAAHIAAAAAAAAAAAAAAJIAAAAUAAAA",
+              "DocumentIndex": 0,
+              "Title": "SimpleLayout.cshtml",
+              "DocumentMoniker": "E:\\thinh\\Auth\\Authentication\\Authentication\\Views\\Shared\\SimpleLayout.cshtml",
+              "RelativeDocumentMoniker": "Authentication\\Views\\Shared\\SimpleLayout.cshtml",
+              "ToolTip": "E:\\thinh\\Auth\\Authentication\\Authentication\\Views\\Shared\\SimpleLayout.cshtml",
+              "RelativeToolTip": "Authentication\\Views\\Shared\\SimpleLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-29T07:52:22.311Z",
+              "WhenOpened": "2024-07-02T14:02:19.681Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "E:\\thinh\\Auth\\Authentication\\Authentication\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Authentication\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "E:\\thinh\\Auth\\Authentication\\Authentication\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "Authentication\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAwwHsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-29T06:08:50.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "E:\\thinh\\Auth\\Authentication\\Authentication\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Authentication\\Views\\_ViewImports.cshtml",
-              "ToolTip": "E:\\thinh\\Auth\\Authentication\\Authentication\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Authentication\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-29T06:08:38.361Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\thinh\\Auth\\Authentication\\Authentication\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Authentication\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\thinh\\Auth\\Authentication\\Authentication\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Authentication\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-29T06:06:49.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "E:\\thinh\\Auth\\Authentication\\Authentication\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "Authentication\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "E:\\thinh\\Auth\\Authentication\\Authentication\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "Authentication\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-29T06:04:08.815Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\thinh\\Auth\\Authentication\\Authentication\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "Authentication\\Views\\Admin\\Index.cshtml",
               "ToolTip": "E:\\thinh\\Auth\\Authentication\\Authentication\\Views\\Admin\\Index.cshtml",
               "RelativeToolTip": "Authentication\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-29T06:00:26.567Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Product.cs",
-              "DocumentMoniker": "E:\\thinh\\Auth\\Authentication\\Authentication\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Authentication\\Models\\Product.cs",
-              "ToolTip": "E:\\thinh\\Auth\\Authentication\\Authentication\\Models\\Product.cs",
-              "RelativeToolTip": "Authentication\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T05:50:06.659Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "E:\\thinh\\Auth\\Authentication\\Authentication\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Authentication\\Controllers\\ProductsController.cs",
-              "ToolTip": "E:\\thinh\\Auth\\Authentication\\Authentication\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Authentication\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAmwFQAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T05:47:51.502Z"
+              "WhenOpened": "2024-07-02T13:21:23.194Z",
+              "EditorCaption": ""
             }
           ]
         }

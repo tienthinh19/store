@@ -1,148 +1,104 @@
 ﻿@page
 @model LoginModel
 
-@{
-    ViewData["Title"] = "Log in";
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/399888153_317215394402806_8490186988059689739_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=8nsgjSbPHmwQ7kNvgGlxaeb&_nc_ht=scontent.fsgn2-6.fna&oh=00_AYDbZPAdXBci2LwGIwJ4ZSqSirB-fHABIxgVKumQCVoNOQ&oe=6689D3D1');
+            background-size: cover;
+            background-position: center ;
+            background-repeat: no-repeat;
+            height: 100vh; /* Chiều cao của toàn bộ màn hình */
+            margin: 0; /* Loại bỏ margin mặc định */
+            overflow: hidden; /* Ngăn không cho trang cuộn lên hoặc xuống */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            padding-top: 20px; /* Đẩy hình nền xuống 20px */
+        }
 
-<h1 class="abc-web">@ViewData["Title"]</h1>
-<div class="row">
-    <div class="col-md-6">
-        <section class="login-form-container">
-            <form id="account" method="post">
-                <h2 class="sign-in">Use a local account to log in.</h2>
-                <hr />
-                <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
-                <div class="form-floating mb-3">
-                    <input asp-for="Input.Email" class="form-control username" autocomplete="username" aria-required="true" placeholder="name@example.com" />
-                    <label asp-for="Input.Email" class="form-label username">Email</label>
-                    <span asp-validation-for="Input.Email" class="text-danger"></span>
-                </div>
-                <div class="form-floating mb-3">
-                    <input asp-for="Input.Password" class="form-control password" autocomplete="current-password" aria-required="true" placeholder="password" />
-                    <label asp-for="Input.Password" class="form-label password">Password</label>
-                    <span asp-validation-for="Input.Password" class="text-danger"></span>
-                </div>
-                <div class="checkbox mb-3">
-                    <label asp-for="Input.RememberMe" class="form-label remember-me-label">
-                        <input class="form-check-input" asp-for="Input.RememberMe" />
-                        @Html.DisplayNameFor(m => m.Input.RememberMe)
-                    </label>
-                </div>
-                <div>
-                    <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary sign-in-button">Log in</button>
-                </div>
-                <div class="links-container">
-                    <p>
-                        <a id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
-                    </p>
-                    <p>
-                        <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a>
-                    </p>
-                    <p>
-                        <a id="resend-confirmation" asp-page="./ResendEmailConfirmation">Resend email confirmation</a>
-                    </p>
-                </div>
-            </form>
-        </section>
-    </div>
-    <div class="col-md-6">
-        <section class="login-image-container">
-            <img src="https://i.pinimg.com/564x/b2/f5/ee/b2f5eef8379cfdbe50efcc2c7cf81559.jpg" alt="No external authentication services configured" class="login-image" />
-        </section>
-    </div>
-</div>
+        .login-form-container {
+            background-color: rgba(0, 0, 0, 0.5); /* Màu nền cho phần form đăng nhập */
+            padding: 20px;
+            width: 50%; /* Chiều rộng của form đăng nhập */
+            max-width: 600px; /* Chiều rộng tối đa */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Đổ bóng */
+        }
 
-@section Scripts {
-    <partial name="_ValidationScriptsPartial" />
-}
+        .form-control {
+            margin-bottom: 10px;
+        }
 
-<style>
-    body {
-        background-color: #122620;
-    }
-
-    .form-check-input {
-        color: gold;
-    }
-
-    h1.abc-web {
-        text-align: center;
-        color: gold;
-        margin-bottom: 20px;
-    }
-
-    h2.sign-in {
-        color: gold;
-    }
-
-    .form-label {
-        margin-bottom: 5px;
-    }
-
-    .form-control {
-        margin-bottom: 10px;
-    }
-
-    .sign-in-button {
-        margin-top: 10px;
-        background-color: gold;
-        border-color: gold;
-        color: black;
-    }
-
-        .sign-in-button:hover {
-            background-color: #e6b800;
-            border-color: #e6b800;
+        .sign-in-button {
+            margin-top: 10px;
+            background-color: gold;
+            border-color: gold;
             color: black;
         }
 
-    .col-md-6 {
-        width: 50%;
-    }
+            .sign-in-button:hover {
+                background-color: #e6b800;
+                border-color: #e6b800;
+                color: black;
+            }
 
-    .login-form-container {
-        padding: 180px 20px;
-    }
-
-    .login-image-container {
-        width: 100%;
-        height: 100vh; /* Đảm bảo chiều cao bằng chiều cao màn hình */
-        overflow: hidden;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .login-image {
-        width: 100%;
-        height: 100%;
-        display: block;
-        object-fit: cover;
-    }
-
-    .text-center {
-        text-align: center;
-    }
-
-    .btn-primary {
-        margin: 5px;
-    }
-
-    .form-horizontal {
-        text-align: center;
-    }
-
-    .links-container a {
-        color: white;
-    }
-
-        .links-container a:hover {
-            color: #e6e6e6;
+        .links-container a {
+            color: white;
         }
 
-    .remember-me-label {
-        color: gold; /* Đổi màu chữ thành màu vàng */
-    }
-</style>
+            .links-container a:hover {
+                color: #e6e6e6;
+            }
+
+        .remember-me-label {
+            color: gold;
+        }
+
+        .navbar {
+            display: none; /* Ẩn thanh navbar đi */
+        }
+    </style>
+</head>
+<body>
+    <div class="login-form-container">
+        <h2 class="text-center text-light">Log in</h2>
+        <form id="account" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+            <div class="form-group">
+                <label class="text-light" asp-for="Input.Email">Email</label>
+                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="text-light" asp-for="Input.Password">Password</label>
+                <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="password" />
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <div class="form-check mb-3">
+                <input class="form-check-input" asp-for="Input.RememberMe" />
+                <label class="form-check-label text-light" asp-for="Input.RememberMe">Remember me</label>
+            </div>
+            <button id="login-submit" type="submit" class="btn btn-lg btn-primary btn-block sign-in-button">Log in</button>
+            <div class="mt-3 text-center links-container">
+                <p>
+                    <a id="forgot-password" asp-page="./ForgotPassword" class="text-light">Forgot your password?</a>
+                </p>
+                <p>
+                    <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl" class="text-light">Register as a new user</a>
+                </p>
+                <p>
+                    <a id="resend-confirmation" asp-page="./ResendEmailConfirmation" class="text-light">Resend email confirmation</a>
+                </p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
