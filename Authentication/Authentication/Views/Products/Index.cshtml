@@ -1,101 +1,105 @@
-﻿@model PaginatedList<Authentication.Models.Product>
-@using Authentication.Helper
+﻿    @model PaginatedList<Authentication.Models.Product>
+    @using Authentication.Helper
 
-@{
-    ViewData["Title"] = "Products";
-    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
-    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
-}
+    @{
+        ViewData["Title"] = "Products";
+        var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+        var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+    }
 
-<h1>Products</h1>
+    <h1>Products</h1>
 
-<div class="row mb-3">
-    <div class="col-md-6">
-        <form asp-action="Index" method="get">
-            <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search by description..." name="description" value="@ViewBag.CurrentFilter">
-                <button class="btn btn-outline-primary" type="submit">Search</button>
-            </div>
-        </form>
-    </div>
-</div>
-
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model[0].Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model[0].Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model[0].Discount)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model[0].Category.Name)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Description)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Price)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Discount)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Category.Name)
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
-
-<div class="row">
-    <div class="col-sm-12">
-        <div class="float-sm-end">
-            <a class="btn btn-dark @prevDisabled" asp-route-pageindex="@(Model.PageIndex - 1)" title="Previous Page">
-                <i class="bi bi-chevron-left"></i>
-            </a>
-            <a class="btn btn-dark @nextDisabled" asp-route-pageindex="@(Model.PageIndex + 1)" title="Next Page">
-                <i class="bi bi-chevron-right"></i>
-            </a>
-            <a class="btn btn-dark @prevDisabled" asp-route-pageindex="1" title="First Page">
-                <i class="bi bi-chevron-bar-left"></i>
-            </a>
-            <a class="btn btn-dark @nextDisabled" asp-route-pageindex="@(Model.TotalPages)" title="Last Page">
-                <i class="bi bi-chevron-bar-right"></i>
-            </a>
-            <button class="btn btn-dark go" title="Goto a specific page" onclick="goToPage()">Go</button>
-            <input class="btn btn-outline-dark"
-                   style="width:60px;"
-                   type="number" min="1" max="@(Model.TotalPages)"
-                   id="page-index" value="@(Model.PageIndex)" />
-            /@(Model.TotalPages)
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <form asp-action="Index" method="get">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search by description..." name="description" value="@ViewBag.CurrentFilter">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                
+                </div>
+            </form>
         </div>
     </div>
+<div class="col-md-6 text-end">
+        <a asp-action="Create" class="btn btn-primary">Create New Product</a>
 </div>
 
-@section Scripts {
-    <script>
-        function goToPage() {
-            var pageIndex = document.getElementById("page-index").value;
-            var url = new URL(window.location.href);
-            url.searchParams.set("pageIndex", pageIndex);
-            window.location.href = url.toString();
-        }
-    </script>
-}
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model[0].Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model[0].Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model[0].Discount)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model[0].Category.Name)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Discount)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Category.Name)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="float-sm-end">
+                <a class="btn btn-dark @prevDisabled" asp-route-pageindex="@(Model.PageIndex - 1)" title="Previous Page">
+                    <i class="bi bi-chevron-left"></i>
+                </a>
+                <a class="btn btn-dark @nextDisabled" asp-route-pageindex="@(Model.PageIndex + 1)" title="Next Page">
+                    <i class="bi bi-chevron-right"></i>
+                </a>
+                <a class="btn btn-dark @prevDisabled" asp-route-pageindex="1" title="First Page">
+                    <i class="bi bi-chevron-bar-left"></i>
+                </a>
+                <a class="btn btn-dark @nextDisabled" asp-route-pageindex="@(Model.TotalPages)" title="Last Page">
+                    <i class="bi bi-chevron-bar-right"></i>
+                </a>
+                <button class="btn btn-dark go" title="Goto a specific page" onclick="goToPage()">Go</button>
+                <input class="btn btn-outline-dark"
+                       style="width:60px;"
+                       type="number" min="1" max="@(Model.TotalPages)"
+                       id="page-index" value="@(Model.PageIndex)" />
+                /@(Model.TotalPages)
+            </div>
+        </div>
+    </div>
+
+    @section Scripts {
+        <script>
+            function goToPage() {
+                var pageIndex = document.getElementById("page-index").value;
+                var url = new URL(window.location.href);
+                url.searchParams.set("pageIndex", pageIndex);
+                window.location.href = url.toString();
+            }
+        </script>
+    }

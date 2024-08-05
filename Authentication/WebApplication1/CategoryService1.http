@@ -1,0 +1,5 @@
+@CategoryService1_HostAddress = http://localhost:5012
+GET {{CategoryService1_HostAddress}}//
+Accept: application/json
+
+###
