@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TZ4fcgEqEJBsKkR+3/Tc8Prz0LIcWme1LCLDYLONa4U=",
+  "Hash": "CLiqDwWhFDX7JVnvxaMywvqv1/F0vEmzKkPvLGGzRTo=",
   "Source": "CategoryService",
   "BasePath": "_content/CategoryService",
   "Mode": "Default",
@@ -46,6 +46,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\thinh\\Auth\\Authentication\\Authentication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Authentication.bundle.scp.css"
+    },
+    {
+      "Identity": "E:\\thinh\\Auth\\Authentication\\Authentication\\wwwroot\\background.jpg",
+      "SourceId": "Authentication",
+      "SourceType": "Project",
+      "ContentRoot": "E:\\thinh\\Auth\\Authentication\\Authentication\\wwwroot\\",
+      "BasePath": "_content/Authentication",
+      "RelativePath": "background.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.jpg"
     },
     {
       "Identity": "E:\\thinh\\Auth\\Authentication\\Authentication\\wwwroot\\css\\site.css",

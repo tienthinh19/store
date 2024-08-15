@@ -1,6 +1,6 @@
-@CategoryService1_HostAddress = http://localhost:5180
+@ManagingUser_HostAddress = http://localhost:5180
 
-GET {{CategoryService1_HostAddress}}//
+GET {{ManagingUser_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
